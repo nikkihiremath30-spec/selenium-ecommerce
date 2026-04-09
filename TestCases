@@ -1,0 +1,25 @@
+#  Manual Test Cases
+
+### Login Test Cases
+
+| TC_ID | Scenario | Steps | Expected Result |
+
+| TC_01 | Valid Login | Enter valid username & password | User logs in successfully |
+| TC_02 | Invalid Login | Enter wrong credentials | Error message displayed |
+| TC_03 | Empty Fields | Click login without input | Validation message shown |
+
+###  Add to Cart
+
+| TC_ID | Scenario | Steps | Expected Result |
+| TC_04 | Add Product | Click "Add to Cart" | Product added successfully |
+| TC_05 | Multiple Products | Add more than one item | All items added to cart |
+
+###  Cart Validation
+
+| TC_ID | Scenario | Steps | Expected Result |
+| TC_06 | View Cart | Click cart icon | Product visible in cart |
+
+###  Logout
+
+| TC_ID | Scenario | Steps | Expected Result |
+| TC_07 | Logout | Click logout button | Redirect to login page |
